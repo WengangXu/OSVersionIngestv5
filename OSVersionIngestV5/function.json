@@ -1,0 +1,11 @@
+{
+  "scriptFile": "OSVersionIngestV5.py",
+  "bindings": [
+    {
+      "name": "mytimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */5 * * * *"
+    }
+  ]
+}
